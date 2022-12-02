@@ -1,3 +1,6 @@
+pub mod day1;
+
 fn main() {
-    println!("Hello, world!");
+    println!("Max Value: {:?}", day1::solve_part1());
+    println!("Total Max Value: {:?}", day1::solve_part2());
 }
